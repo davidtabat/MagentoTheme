@@ -1,0 +1,178 @@
+html {
+    body {
+        margin: 0px;
+
+        .page-wrapper {
+            .logo {
+                margin-top: 30px;
+                margin-left: 20px;
+
+                img {
+                    width: 110px;
+                    height: 18px;
+                }
+            }
+
+            .page-header {
+                width: 100%;
+                height: 140px;
+                border-bottom: 10px solid greenyellow;
+
+                .header.content {
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 15px;
+                    width: 85%;
+                    display: flex;
+                    align-items: center;
+
+                    .action.nav-toggle {
+                        height: 16px;
+                        width: 25px;
+                        padding-bottom: 1px;
+
+                        img {
+                            content: url("../images/icons/hamburger-menu-icon.png");
+                            height: 16px;
+                            width: 25px;
+                        }
+                    }
+
+                    .block.block-search {
+                        width: 100%;
+
+                        .block.block-content {
+                            .form.minisearch {
+
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                justify-content: space-between;
+
+                                .field.search {
+                                    width: 60%;
+                                    margin-left: auto;
+                                    margin-right: auto;
+
+                                    .control {
+                                        width: 100%;
+
+                                        #search {
+                                            width: 100%;
+                                            height: 23px;
+                                            border: 0;
+                                        }
+
+                                        #search::placeholder {
+                                            color: black;
+                                            font-style: italic;
+                                        }
+                                    }
+                                }
+
+                                .actions {
+                                    button {
+                                        margin-top: 2px;
+                                        border: 0;
+                                        height: 15px;
+                                        width: 15px;
+                                        background: url(../images/icons/001-magnifying-glass.svg) no-repeat;
+                                        background-size: cover;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .panel.wrapper {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    flex-direction: row-reverse;
+
+                    .panel.header {
+                        .action.skip.contentarea {
+                            display: none;
+                        }
+
+                        .header.links {
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            display: flex;
+                            list-style-type: none;
+                            flex-direction: row-reverse;
+                            justify-content: space-evenly;
+                            font-size: 10px;
+                            margin-top: 17px;
+                            margin-right: 22px;
+                            width: 75%;
+
+                            .link.wishlist {
+                                a {
+                                    display: flex;
+                                    flex-direction: column;
+                                    text-decoration: none;
+                                    align-items: center;
+                                    color: black;
+
+                                    img {
+                                        content: url('../images/icons/004-heart-shape-love.svg');
+                                        width: 15px;
+                                        height: 15px;
+                                        border: 0;
+                                        margin: 3px;
+                                    }
+                                }
+                            }
+
+                            .minicart-wrapper {
+                                .action.showcart {
+                                    display: flex;
+                                    flex-direction: column;
+                                    text-decoration: none;
+                                    align-items: center;
+                                    color: black;
+
+                                    img {
+                                        content: url('../images/icons/shopping-cart-silhouette.png');
+                                        width: 15px;
+                                        height: 15px;
+                                        border: 0;
+                                        margin: 3px;
+                                    }
+                                }
+                            }
+
+                            .authorization-link {
+                                a {
+                                    display: flex;
+                                    flex-direction: column;
+                                    text-decoration: none;
+                                    align-items: center;
+                                    color: black;
+
+                                    img {
+                                        content: url('../images/icons/user-logo.png');
+                                        width: 15px;
+                                        height: 15px;
+                                        border: 0;
+                                        margin: 3px;
+                                    }
+                                }
+                            }
+
+                            li {
+                                margin: 5px;
+                            }
+
+                            .greet.welcome {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
